@@ -46,3 +46,57 @@ header nav ul li a {
 header .header-cases {
 	display: none;
 }
+
+/* footer */
+footer{
+
+	width: cals(100% - 80px);
+	padding: 40px 40px;
+	margin-top: 20px;
+	background-color: #333;
+	overflow: hidden;
+}
+
+footer ul{
+
+	width: fit-content;
+
+	float: left;
+
+	padding-left: 20px;
+
+}
+
+footer ul li{
+
+	display:  block;
+	list-style: none;
+	
+}
+
+footer ul li a{
+
+	font-family: Catamaran;
+	font-size: 26px;
+	color: #fff;
+	line-height: 40px;
+
+}
+
+.footer-links-cses{
+
+	display: none;
+}
+
+.footer-sm{
+
+	width: 50px;
+	float: right;
+
+}
+
+.footer-sm img{
+
+	width: 100%;
+	margin-bottom: 10px;
+}
